@@ -29,7 +29,7 @@ namespace Practice5
                 }
                 else
                 {
-                    Console.WriteLine("Write 1 or 2!");
+                    Console.WriteLine("Please Write 1 or 2!");
                 }
             }
             catch (Exception ex)
