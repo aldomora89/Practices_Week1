@@ -6,13 +6,15 @@ namespace Practice3
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Salary Details Calculate");
             Console.WriteLine("Your Full Name: ");
             string name = Console.ReadLine();
             double CCSS = 0.08;
             double BP = 0.01;
             Console.WriteLine("Salary: ");
-            Console.WriteLine("-------------------------------");
             double salary = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("-------------------------------" + '\n' + "Hi " + name);
+
             double CSSS_fee = salary * CCSS;
             double BP_fee = salary * BP;
             double salary_net = salary - (CSSS_fee + BP_fee);
