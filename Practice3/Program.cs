@@ -11,6 +11,7 @@ namespace Practice3
             double CCSS = 0.08;
             double BP = 0.01;
             Console.WriteLine("Salary: ");
+            Console.WriteLine("-------------------------------");
             double salary = Convert.ToDouble(Console.ReadLine());
             double CSSS_fee = salary * CCSS;
             double BP_fee = salary * BP;
